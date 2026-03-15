@@ -7,3 +7,4 @@ all_routers = [
     sample_router,
     code_router,
 ]
+
