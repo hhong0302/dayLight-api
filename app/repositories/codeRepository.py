@@ -10,7 +10,7 @@ def select_code(db, param):
             , REF2
             , REF3
         FROM TB_CODE 
-        WHERE CODE_LGRUOP = :code_lgroup
+        WHERE CODE_LGROUP = :code_lgroup
         AND CODE_MGROUP = :code_mgroup
     """
     return execute_sel(db, query, param)
